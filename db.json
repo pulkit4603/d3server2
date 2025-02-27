@@ -1,5 +1,240 @@
 {
   "goal": {
     "achieved": 68
-  }
+  },
+  "diet": [
+    {
+      "week": 1,
+      "breakfast": [
+        {
+          "food": "omelette",
+          "quantity": "100",
+          "calories": "60",
+          "proteins": "20",
+          "carbs": "70",
+          "fats": "10"
+        },
+        {
+          "food": "oatmeal",
+          "quantity": "150",
+          "calories": "150",
+          "proteins": "6",
+          "carbs": "27",
+          "fats": "3"
+        },
+        {
+          "food": "greek yogurt",
+          "quantity": "200",
+          "calories": "130",
+          "proteins": "12",
+          "carbs": "9",
+          "fats": "4"
+        }
+      ],
+      "lunch": [
+        {
+          "food": "grilled chicken",
+          "quantity": "200",
+          "calories": "330",
+          "proteins": "38",
+          "carbs": "0",
+          "fats": "7"
+        },
+        {
+          "food": "brown rice",
+          "quantity": "150",
+          "calories": "160",
+          "proteins": "4",
+          "carbs": "34",
+          "fats": "1"
+        },
+        {
+          "food": "mixed vegetables",
+          "quantity": "200",
+          "calories": "70",
+          "proteins": "4",
+          "carbs": "14",
+          "fats": "1"
+        }
+      ],
+      "snacks": [
+        {
+          "food": "almonds",
+          "quantity": "30",
+          "calories": "170",
+          "proteins": "6",
+          "carbs": "6",
+          "fats": "15"
+        },
+        {
+          "food": "apple",
+          "quantity": "150",
+          "calories": "95",
+          "proteins": "0",
+          "carbs": "25",
+          "fats": "0"
+        }
+      ],
+      "dinner": [
+        {
+          "food": "salmon",
+          "quantity": "170",
+          "calories": "280",
+          "proteins": "34",
+          "carbs": "0",
+          "fats": "12"
+        },
+        {
+          "food": "quinoa",
+          "quantity": "150",
+          "calories": "180",
+          "proteins": "8",
+          "carbs": "39",
+          "fats": "3"
+        },
+        {
+          "food": "steamed broccoli",
+          "quantity": "150",
+          "calories": "50",
+          "proteins": "4",
+          "carbs": "10",
+          "fats": "1"
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "breakfast": [
+        {
+          "food": "protein smoothie",
+          "quantity": "300",
+          "calories": "250",
+          "proteins": "25",
+          "carbs": "30",
+          "fats": "5"
+        },
+        {
+          "food": "whole grain toast",
+          "quantity": "60",
+          "calories": "120",
+          "proteins": "4",
+          "carbs": "23",
+          "fats": "2"
+        }
+      ],
+      "lunch": [
+        {
+          "food": "turkey wrap",
+          "quantity": "250",
+          "calories": "350",
+          "proteins": "28",
+          "carbs": "45",
+          "fats": "8"
+        },
+        {
+          "food": "sweet potato",
+          "quantity": "180",
+          "calories": "180",
+          "proteins": "2",
+          "carbs": "41",
+          "fats": "0"
+        }
+      ],
+      "snacks": [
+        {
+          "food": "protein bar",
+          "quantity": "60",
+          "calories": "220",
+          "proteins": "20",
+          "carbs": "25",
+          "fats": "8"
+        }
+      ],
+      "dinner": [
+        {
+          "food": "lean beef",
+          "quantity": "180",
+          "calories": "300",
+          "proteins": "40",
+          "carbs": "0",
+          "fats": "14"
+        },
+        {
+          "food": "asparagus",
+          "quantity": "100",
+          "calories": "40",
+          "proteins": "4",
+          "carbs": "7",
+          "fats": "0"
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "breakfast": [
+        {
+          "food": "cottage cheese",
+          "quantity": "200",
+          "calories": "220",
+          "proteins": "28",
+          "carbs": "8",
+          "fats": "10"
+        },
+        {
+          "food": "banana",
+          "quantity": "120",
+          "calories": "105",
+          "proteins": "1",
+          "carbs": "27",
+          "fats": "0"
+        }
+      ],
+      "lunch": [
+        {
+          "food": "tuna salad",
+          "quantity": "200",
+          "calories": "280",
+          "proteins": "35",
+          "carbs": "5",
+          "fats": "12"
+        },
+        {
+          "food": "whole grain crackers",
+          "quantity": "50",
+          "calories": "140",
+          "proteins": "3",
+          "carbs": "25",
+          "fats": "4"
+        }
+      ],
+      "snacks": [
+        {
+          "food": "hummus with carrots",
+          "quantity": "150",
+          "calories": "180",
+          "proteins": "8",
+          "carbs": "20",
+          "fats": "10"
+        }
+      ],
+      "dinner": [
+        {
+          "food": "tofu stir-fry",
+          "quantity": "300",
+          "calories": "320",
+          "proteins": "25",
+          "carbs": "30",
+          "fats": "12"
+        },
+        {
+          "food": "brown rice",
+          "quantity": "150",
+          "calories": "160",
+          "proteins": "4",
+          "carbs": "34",
+          "fats": "1"
+        }
+      ]
+    }
+  ]
 }
