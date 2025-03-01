@@ -236,5 +236,199 @@
         }
       ]
     }
+  ],
+  "scheduled": [
+    {
+      "id": 1,
+      "title": "Weekly Progress Review",
+      "with": "Mike Fitness",
+      "date": "2025-02-28T10:00:00.000Z",
+      "duration": "30min",
+      "type": "video"
+    },
+    {
+      "id": 2,
+      "title": "Diet Consultation",
+      "with": "Seb Bluff",
+      "date": "2025-02-28T15:30:00.000Z",
+      "duration": "45min",
+      "type": "in-person"
+    }
+  ],
+  "routines": [
+    {
+      "id": 1,
+      "type": "diet",
+      "name": "Summer Shred",
+      "days": [
+        {
+          "date": "2025-02-16",
+          "diet": "High Protein",
+          "status": "completed"
+        },
+        {
+          "date": "2025-02-18",
+          "diet": "Low Carb",
+          "status": "completed"
+        },
+        {
+          "date": "2025-02-19",
+          "diet": "Balanced",
+          "status": "completed"
+        },
+        {
+          "date": "2025-02-20",
+          "diet": "High Protein",
+          "status": "missed"
+        },
+        {
+          "date": "2025-02-21",
+          "diet": "Low Carb",
+          "status": "completed"
+        },
+        {
+          "date": "2025-02-22",
+          "diet": "Balanced",
+          "status": "completed"
+        },
+        {
+          "date": "2025-02-24",
+          "diet": "High Protein",
+          "status": "completed"
+        },
+        {
+          "date": "2025-02-25",
+          "diet": "Low Carb",
+          "status": "completed"
+        },
+        {
+          "date": "2025-02-26",
+          "diet": "Balanced",
+          "status": "missed"
+        },
+        {
+          "date": "2025-02-27",
+          "diet": "High Protein",
+          "status": "completed"
+        },
+        {
+          "date": "2025-02-28",
+          "diet": "Low Carb",
+          "status": "completed"
+        },
+        {
+          "date": "2025-03-01",
+          "diet": "Balanced",
+          "status": "missed"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "workout",
+      "name": "Strength Builder Pro",
+      "days": [
+      {
+        "date": "2025-02-15",
+        "workout": "HIIT",
+        "status": "completed"
+      },
+      {
+        "date": "2025-02-16",
+        "workout": "Endurance Run",
+        "status": "missed"
+      },
+      {
+        "date": "2025-02-17",
+        "workout": "Jog",
+        "status": "completed"
+      },
+      {
+        "date": "2025-02-18",
+        "workout": "Sprint Intervals",
+        "status": "completed"
+      },
+      {
+        "date": "2025-02-19",
+        "workout": "Long Distance Run",
+        "status": "missed"
+      },
+      {
+        "date": "2025-02-21",
+        "workout": "HIIT",
+        "status": "completed"
+      },
+      {
+        "date": "2025-02-22",
+        "workout": "Endurance Run",
+        "status": "completed"
+      },
+      {
+        "date": "2025-02-23",
+        "workout": "Jog",
+        "status": "missed"
+      },
+      {
+        "date": "2025-02-25",
+        "workout": "Sprint Intervals",
+        "status": "completed"
+      },
+      {
+        "date": "2025-02-26",
+        "workout": "Long Distance Run",
+        "status": "completed"
+      },
+      {
+        "date": "2025-02-28",
+        "workout": "HIIT",
+        "status": "missed"
+      },
+      {
+        "date": "2025-03-01",
+        "workout": "Endurance Run",
+        "status": "completed"
+      },
+      {
+        "date": "2025-03-02",
+        "workout": "Jog",
+        "status": "pending"
+      },
+      {
+        "date": "2025-03-03",
+        "workout": "Sprint Intervals",
+        "status": "pending"
+      },
+      {
+        "date": "2025-03-04",
+        "workout": "Endurance Run",
+        "status": "pending"
+      },
+      {
+        "date": "2025-03-05",
+        "workout": "HIIT",
+        "status": "pending"
+      },
+      {
+        "date": "2025-03-06",
+        "workout": "Long Distance Run",
+        "status": "pending"
+      },
+      {
+        "date": "2025-03-07",
+        "workout": "Jog",
+        "status": "pending"
+      },
+      {
+        "date": "2025-03-08",
+        "workout": "Sprint Intervals",
+        "status": "pending"
+      },
+      {
+        "date": "2025-03-10",
+        "workout": "HIIT",
+        "status": "pending"
+      }
+      ]
+    }
   ]
 }
