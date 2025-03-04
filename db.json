@@ -244,15 +244,35 @@
       "with": "Mike Fitness",
       "date": "2025-02-28T10:00:00.000Z",
       "duration": "30min",
-      "type": "video"
+      "type": "online",
+      "isFinalized": true
     },
     {
       "id": 2,
       "title": "Diet Consultation",
       "with": "Seb Bluff",
       "date": "2025-02-28T15:30:00.000Z",
-      "duration": "45min",
-      "type": "in-person"
+      "duration": "30min",
+      "type": "online",
+      "isFinalized": true
+    },
+    {
+      "id": 3,
+      "with": "Mike Fitness",
+      "date": "2025-02-28T10:30:00.000Z",
+      "duration": "15min",
+      "type": "online",
+      "isFinalized": false,
+      "agenda": "Questions about donuts"
+    },
+    {
+      "id": 4,
+      "with": "Mike Fitness",
+      "date": "2025-02-28T10:30:00.000Z",
+      "duration": "15min",
+      "type": "online",
+      "isFinalized": false,
+      "agenda": "Questions about donuts"
     }
   ],
   "routines": [
@@ -328,125 +348,125 @@
       "type": "workout",
       "name": "Strength Builder Pro",
       "days": [
-      {
-        "date": "2025-02-15",
-        "workout": "HIIT",
-        "status": "completed"
-      },
-      {
-        "date": "2025-02-16",
-        "workout": "Endurance Run",
-        "status": "missed"
-      },
-      {
-        "date": "2025-02-17",
-        "workout": "Jog",
-        "status": "completed"
-      },
-      {
-        "date": "2025-02-18",
-        "workout": "Sprint Intervals",
-        "status": "completed"
-      },
-      {
-        "date": "2025-02-19",
-        "workout": "Long Distance Run",
-        "status": "missed"
-      },
-      {
-        "date": "2025-02-21",
-        "workout": "HIIT",
-        "status": "completed"
-      },
-      {
-        "date": "2025-02-22",
-        "workout": "Endurance Run",
-        "status": "completed"
-      },
-      {
-        "date": "2025-02-23",
-        "workout": "Jog",
-        "status": "missed"
-      },
-      {
-        "date": "2025-02-25",
-        "workout": "Sprint Intervals",
-        "status": "completed"
-      },
-      {
-        "date": "2025-02-26",
-        "workout": "Long Distance Run",
-        "status": "completed"
-      },
-      {
-        "date": "2025-02-28",
-        "workout": "HIIT",
-        "status": "missed"
-      },
-      {
-        "date": "2025-03-01",
-        "workout": "Endurance Run",
-        "status": "completed"
-      },
-      {
-        "date": "2025-03-02",
-        "workout": "Jog",
-        "status": "pending"
-      },
-      {
-        "date": "2025-03-03",
-        "workout": "Sprint Intervals",
-        "status": "pending"
-      },
-      {
-        "date": "2025-03-04",
-        "workout": "Endurance Run",
-        "status": "pending"
-      },
-      {
-        "date": "2025-03-05",
-        "workout": "HIIT",
-        "status": "pending"
-      },
-      {
-        "date": "2025-03-06",
-        "workout": "Long Distance Run",
-        "status": "pending"
-      },
-      {
-        "date": "2025-03-07",
-        "workout": "Jog",
-        "status": "pending"
-      },
-      {
-        "date": "2025-03-08",
-        "workout": "Sprint Intervals",
-        "status": "pending"
-      },
-      {
-        "date": "2025-03-10",
-        "workout": "HIIT",
-        "status": "pending"
-      }
+        {
+          "date": "2025-02-15",
+          "workout": "HIIT",
+          "status": "completed"
+        },
+        {
+          "date": "2025-02-16",
+          "workout": "Endurance Run",
+          "status": "missed"
+        },
+        {
+          "date": "2025-02-17",
+          "workout": "Jog",
+          "status": "completed"
+        },
+        {
+          "date": "2025-02-18",
+          "workout": "Sprint Intervals",
+          "status": "completed"
+        },
+        {
+          "date": "2025-02-19",
+          "workout": "Long Distance Run",
+          "status": "missed"
+        },
+        {
+          "date": "2025-02-21",
+          "workout": "HIIT",
+          "status": "completed"
+        },
+        {
+          "date": "2025-02-22",
+          "workout": "Endurance Run",
+          "status": "completed"
+        },
+        {
+          "date": "2025-02-23",
+          "workout": "Jog",
+          "status": "missed"
+        },
+        {
+          "date": "2025-02-25",
+          "workout": "Sprint Intervals",
+          "status": "completed"
+        },
+        {
+          "date": "2025-02-26",
+          "workout": "Long Distance Run",
+          "status": "completed"
+        },
+        {
+          "date": "2025-02-28",
+          "workout": "HIIT",
+          "status": "missed"
+        },
+        {
+          "date": "2025-03-01",
+          "workout": "Endurance Run",
+          "status": "completed"
+        },
+        {
+          "date": "2025-03-02",
+          "workout": "Jog",
+          "status": "pending"
+        },
+        {
+          "date": "2025-03-03",
+          "workout": "Sprint Intervals",
+          "status": "pending"
+        },
+        {
+          "date": "2025-03-04",
+          "workout": "Endurance Run",
+          "status": "pending"
+        },
+        {
+          "date": "2025-03-05",
+          "workout": "HIIT",
+          "status": "pending"
+        },
+        {
+          "date": "2025-03-06",
+          "workout": "Long Distance Run",
+          "status": "pending"
+        },
+        {
+          "date": "2025-03-07",
+          "workout": "Jog",
+          "status": "pending"
+        },
+        {
+          "date": "2025-03-08",
+          "workout": "Sprint Intervals",
+          "status": "pending"
+        },
+        {
+          "date": "2025-03-10",
+          "workout": "HIIT",
+          "status": "pending"
+        }
       ]
     }
   ],
   "consultants": {
     "1": {
-      "consultantId":1,
-      "consultantName":"Seb Bluff",
+      "consultantId": 1,
+      "consultantName": "Seb Bluff",
       "consultantDomain": "Nutrition & Diet Planning",
       "experience": "5 years",
-      "image":"https://i.ibb.co/9x2YMqB/250302-16h46m39s-screenshot.png",
+      "image": "https://i.ibb.co/9x2YMqB/250302-16h46m39s-screenshot.png",
       "students": 134
     },
     "2": {
-      "consultantId":2,
-      "consultantName":"Mike Fitness",
-      "consultantDomain":"Strength Training",
-      "experience":"7 years",
+      "consultantId": 2,
+      "consultantName": "Mike Fitness",
+      "consultantDomain": "Strength Training",
+      "experience": "7 years",
       "image": "https://i.ibb.co/bg7gD9c2/250302-16h42m56s-screenshot.png",
-      "students":232
+      "students": 232
     }
   }
 }
